@@ -1,0 +1,80 @@
+    p { color: blue; }
+
+    /* 2. Título principal (ID) */
+    #titulo-principal { background: yellow; }
+
+    /* 3. Subtítulos (CLASSE) */
+    .subtitulo { color: green; }
+
+    /* 4. Itens de lista (TAG) */
+    li { color: purple; }
+
+    /* 5. Duas caixas (CLASSE) */
+      ex5 .caixa {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  display: inline-block;   /* ficam lado a lado */
+  border: 1px solid #000;  /* opcional: só pra ver contorno */
+  }
+ #ex5 .vermelha { background: red; }
+  #ex5 .laranja  { background: orange; }
+
+
+
+    /* 6. Agrupando seletores (TAGS AGRUPADOS) */
+    p, h2, h3 { color: brown; }
+
+    /* 7. Texto centralizado (ID) */
+    #paragrafo-centro { text-align: center; }
+
+    /* 8. Dois links diferentes (ID) */
+    #ex18 #caixa-estilizada {
+  background: lightgray;
+  border: 2px solid #000;
+  padding: 10px;
+  width: 150px;            /* tamanho fixo menor, não ocupa a tela */
+  display: inline-block;   /* fica um bloco compacto */
+}
+
+    /* 10. Imagens com borda (TAG) */
+    img { border: 3px solid black; width: 100px; }
+
+    /* 11. Descendente básico (DESCENDENTE) */
+    div p { color: darkorange; }
+
+    /* 12. Dois parágrafos diferentes (CLASSE) */
+    .par1 { color: teal; }
+    .par2 { color: crimson; }
+
+    /* 13. Fonte personalizada (ID) */
+    #titulo-arial { font-family: Arial, sans-serif; }
+
+    /* 14. Estilos diferentes (CLASSE) */
+    .bold { font-weight: bold; }
+    .italic { font-style: italic; }
+    .underline { text-decoration: underline; }
+
+    /* 15. Título dentro da div (DESCENDENTE) */
+    div h3 { color: darkcyan; }
+
+    /* 16. Três caixas coloridas (ID) */
+    #box1 { width: 100px; height: 100px; background: red; display: inline-block; }
+    #box2 { width: 100px; height: 100px; background: green; display: inline-block; }
+    #box3 { width: 100px; height: 100px; background: blue; display: inline-block; }
+
+    /* 17. Span destacado (CLASSE) */
+    .destaque { color: gold; font-weight: bold; }
+
+    /* 18. Caixa estilizada (ID) */
+    #caixa-estilizada { background: lightgray; border: 2px solid black; padding: 10px; }
+
+    /* 19. Links sublinhados (CLASSE) */
+    .sublinhado { text-decoration: underline; }
+
+    /* 20. Agrupando elementos (AGRUPADO) */
+    h1, p, a { color: darkblue; }
+
+    /* Duas divs com classes diferentes */
+    .divA { background: pink; padding: 10px; }
+    .divB { background: lightgreen; padding: 10px; }
