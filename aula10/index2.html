@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+    body { font-family: Arial, sans-serif; margin: 20px; background: #f9f9f9; }
+    h1, h2 { color: #1b5e20; }
+    section, article, aside, header, footer, nav, figure {
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 8px;
+      background: #ffffff;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    nav { background: #1b5e20; color: white; padding: 10px; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    footer { background: #004d40; color: white; text-align: center; padding: 15px; }
+    aside { background: #e3f2fd; float: right; width: 30%; margin-left: 20px; }
+    figure { display: inline-block; text-align: center; margin: 10px; }
+    figcaption { font-style: italic; }
+    details { margin: 5px 0; background: #f1f8e9; padding: 8px; border-radius: 6px; }
+    mark { background: #fff59d; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Exercícios de HTML Semântico</h1>
+    <p>Praticando tags modernas e estruturadas do HTML5</p>
+  </header>
+
+  <main>
+
+    <!-- Exercício 1 -->
+    <h2>Exercício 1: Seções - Meus Hobbies</h2>
+    <section>
+      <h3>Tocar Violão</h3>
+      <p>Adoro tocar violão nas horas vagas, especialmente músicas acústicas.</p>
+    </section>
+    <section>
+      <h3>Leitura</h3>
+      <p>Gosto de ler livros de fantasia e ficção científica.</p>
+    </section>
+    <section>
+      <h3>Esportes</h3>
+      <p>Pratico futebol e corrida para manter a saúde e o bem-estar.</p>
+    </section>
+
+    <!-- Exercício 2 -->
+    <h2>Exercício 2: Artigos - Reviews de Filmes</h2>
+    <article>
+      <h3>Inception</h3>
+      <p>Um filme intrigante que desafia a mente com sonhos dentro de sonhos.</p>
+      <p>Direção impecável de Christopher Nolan e trilha sonora marcante.</p>
+    </article>
+    <article>
+      <h3>Interstellar</h3>
+      <p>Uma jornada emocionante pelo espaço e pelo tempo.</p>
+      <p>Explora o amor e a sobrevivência em uma escala cósmica.</p>
+    </article>
+    <article>
+      <h3>O Senhor dos Anéis</h3>
+      <p>Uma épica aventura na Terra Média.</p>
+      <p>Visual deslumbrante e personagens inesquecíveis.</p>
+    </article>
+
+    <!-- Exercício 3 -->
+    <h2>Exercício 3: Cabeçalho e Rodapé</h2>
+    <header>
+      <h3>Meu Site Pessoal</h3>
+      <p>Aprendendo HTML e CSS</p>
+    </header>
+    <p>Bem-vindo ao meu site! Aqui compartilho meus projetos e ideias.</p>
+    <footer>
+      <p>&copy; 2025 - Todos os direitos reservados</p>
+      <a href="mailto:contato@meusite.com" style="color: #a5d6a7;">Entre em contato</a>
+    </footer>
+
+    <!-- Exercício 4 -->
+    <h2>Exercício 4: Menu de Navegação</h2>
+    <nav>
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <!-- Exercício 5 -->
+    <h2>Exercício 5: Conteúdo Lateral com Aside</h2>
+    <p>O Brasil é o maior país da América do Sul, conhecido por sua diversidade cultural e belezas naturais.</p>
+    <aside>
+      <h4>Curiosidades</h4>
+      <p>O Brasil abriga a maior floresta tropical do mundo: a Amazônia.</p>
+    </aside>
+
+    <!-- Exercício 6 -->
+    <h2>Exercício 6: Figuras e Legendas</h2>
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM5JEpY84ru509qwFV92UEMOvOzFBktoHxNg&s" alt="Montanha" width="200">
+      <figcaption>Montanhas ao amanhecer</figcaption>
+    </figure>
+    <figure>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwarylw9YJifssaIsnUGWF7LW32MJJAzFuyA&s" alt="Praia" width="200">
+      <figcaption>Praia paradisíaca</figcaption>
+    </figure>
+    <figure>
+      <img src="https://images.unsplash.com/photo-1542463873-e914d2e10f51?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cidade" width="200">
+      <figcaption>Paisagem urbana à noite</figcaption>
+    </figure>
+
+    <!-- Exercício 7 -->
+    <h2>Exercício 7: Aninhamento de Elementos</h2>
+    <article>
+      <header>
+        <h3>Tutorial: Introdução ao HTML</h3>
+        <p>Publicado em <time datetime="2025-10-07">7 de Outubro de 2025</time></p>
+      </header>
+      <section>
+        <h4>Capítulo 1 - O que é HTML</h4>
+        <p>HTML é a linguagem usada para estruturar páginas da web.</p>
+      </section>
+      <section>
+        <h4>Capítulo 2 - Estrutura Básica</h4>
+        <p>Todo documento HTML começa com &lt;!DOCTYPE html&gt; e as tags &lt;html&gt;, &lt;head&gt; e &lt;body&gt;.</p>
+      </section>
+      <section>
+        <h4>Capítulo 3 - Tags Principais</h4>
+        <p>Usamos tags como &lt;h1&gt;, &lt;p&gt;, &lt;section&gt;, &lt;article&gt; para organizar o conteúdo.</p>
+      </section>
+    </article>
+
+    <!-- Exercício 8 -->
+    <h2>Exercício 8: Estrutura de Blog Completa</h2>
+    <header>
+      <h3>Meu Blog</h3>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#posts">Posts</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <article>
+        <header>
+          <h4>Post 1 - Aprendendo HTML</h4>
+          <p><time datetime="2025-10-01">1 de Outubro de 2025</time></p>
+        </header>
+        <section>
+          <p>HTML é a base da construção de páginas web.</p>
+        </section>
+        <footer><p>Autor: João</p></footer>
+      </article>
+
+      <article>
+        <header>
+          <h4>Post 2 - Introdução ao CSS</h4>
+          <p><time datetime="2025-10-02">2 de Outubro de 2025</time></p>
+        </header>
+        <section>
+          <p>O CSS permite estilizar as páginas HTML, deixando-as mais bonitas.</p>
+        </section>
+        <footer><p>Autor: João</p></footer>
+      </article>
+
+      <article>
+        <header>
+          <h4>Post 3 - JavaScript Básico</h4>
+          <p><time datetime="2025-10-03">3 de Outubro de 2025</time></p>
+        </header>
+        <section>
+          <p>JavaScript adiciona interatividade às páginas da web.</p>
+        </section>
+        <footer><p>Autor: João</p></footer>
+      </article>
+
+      <aside>
+        <h4>Posts Populares</h4>
+        <ul>
+          <li>Como aprender HTML rápido</li>
+          <li>Melhores editores de código</li>
+          <li>Truques de CSS</li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - Meu Blog | Redes sociais: @meublog</p>
+    </footer>
+
+    <!-- Exercício 9 -->
+    <h2>Exercício 9: FAQ com Details e Summary</h2>
+    <details>
+      <summary>O que é HTML?</summary>
+      <p>É a linguagem usada para estruturar páginas da web.</p>
+    </details>
+    <details>
+      <summary>O que é CSS?</summary>
+      <p>CSS define o estilo e o layout das páginas HTML.</p>
+    </details>
+    <details>
+      <summary>O que é JavaScript?</summary>
+      <p>É uma linguagem de programação usada para interatividade em sites.</p>
+    </details>
+    <details>
+      <summary>Como começar a aprender?</summary>
+      <p>Comece estudando HTML, depois CSS e JavaScript.</p>
+    </details>
+    <details>
+      <summary>O que é um framework?</summary>
+      <p>É um conjunto de ferramentas que agiliza o desenvolvimento.</p>
+    </details>
+
+    <!-- Exercício 10 -->
+    <h2>Exercício 10: Texto com Mark</h2>
+    <p><mark>HTML</mark> é a estrutura de uma página.</p>
+    <p><mark>CSS</mark> controla o design e a aparência visual.</p>
+    <p><mark>JavaScript</mark> adiciona lógica e interatividade.</p>
+
+    <!-- Exercício 11 -->
+    <h2>Exercício 11: Linha do Tempo com Time</h2>
+    <section>
+      <article><time datetime="1969-07-20">20/07/1969</time> – O homem pisa na Lua.</article>
+      <article><time datetime="1989-11-09">09/11/1989</time> – Queda do Muro de Berlim.</article>
+      <article><time datetime="2008-09-15">15/09/2008</time> – Crise financeira mundial.</article>
+      <article><time datetime="2020-03-11">11/03/2020</time> – Pandemia de COVID-19 declarada.</article>
+      <article><time datetime="2025-01-01">01/01/2025</time> – Início de uma nova era tecnológica.</article>
+    </section>
+
+    <!-- Exercício 12 -->
+    <h2>Exercício 12: Portfólio Pessoal</h2>
+    <header>
+      <h3>Portfólio de João Silva</h3>
+      <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="sobre">
+        <h4>Sobre Mim</h4>
+        <p>Sou desenvolvedor web apaixonado por tecnologia e design.</p>
+      </section>
+
+      <section id="projetos">
+        <h4>Projetos</h4>
+        <article>
+          <h5>Site de Receitas</h5>
+          <p>Um site responsivo com HTML, CSS e JavaScript.</p>
+        </article>
+        <article>
+          <h5>Blog de Viagens</h5>
+          <p>Compartilho experiências e fotos de viagens pelo mundo.</p>
+        </article>
+      </section>
+
+      <section id="habilidades">
+        <h4>Habilidades</h4>
+        <ul>
+          <li>HTML5 e CSS3</li>
+          <li>JavaScript</li>
+          <li>Git e GitHub</li>
+        </ul>
+      </section>
+
+      <aside>
+        <h4>Contato</h4>
+        <p>Email: joao@portfolio.com</p>
+        <p>Telefone: (11) 99999-9999</p>
+      </aside>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - João Silva | Redes Sociais: @joaodesenvolve</p>
+    </footer>
+
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      margin:0; padding:10px;
+      display:grid;
+      grid-template: 
+        "header header" auto
+        "nav nav" auto
+        "main aside" 1fr
+        "footer footer" auto / 2fr 1fr;
+      gap:10px;
+      background:#f2f2f2;
+    }   
+
+
+
+
+    header, nav, main, aside, footer {
+      padding:15px; color:#fff; border-radius:5px;
+    }
+
+    header, footer { background:#4a90e2; text-align:center; }
+    nav { background:#357ab8; text-align:center; }
+    main { background:#5aa0e0; }
+    aside { background:#7eb6f3; }
+    article { margin-bottom:15px; }
+    ul { padding-left:20px; }
+     footer {
+      border-radius:0; 
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>TechNews</h1>
+    <p>Últimas notícias de tecnologia e inovação</p>
+  </header>
+
+  <nav>Home | Notícias | Artigos | Contato</nav>
+
+  <main>
+    <article>
+      <h2>Lançamento do Smartphone XYZ</h2>
+      <p>O novo smartphone XYZ chega com câmera revolucionária e bateria de longa duração.</p>
+    </article>
+    <article>
+      <h2>Top Apps para Produtividade</h2>
+      <p>Conheça os 5 melhores aplicativos para aumentar sua produtividade no trabalho e estudos.</p>
+    </article>
+  </main>
+
+  <aside>
+    <h2>Posts Populares</h2>
+    <ul>
+      <li>Como montar um PC gamer barato</li>
+      <li>Tendências em Inteligência Artificial</li>
+      <li>Dicas de segurança digital</li>
+    </ul>
+  </aside>
+
+  <footer>&copy; 2025 TechNews. Todos os direitos reservados.</footer>
+
+
+  
+
+
+
+
+</body>
+</html>
