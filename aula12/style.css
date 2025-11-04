@@ -1,0 +1,269 @@
+body {
+    background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content:left;
+  align-items: left;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.
+item1 {
+  background: rgb(207, 191, 65);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+container2 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item2 {
+  background: rgb(74, 165, 165);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container3 {
+  display: flex;
+  justify-content:right;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item3 {
+  background: rgb(85, 167, 188);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+
+.container4 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  height: auto;
+  background: rgb(0, 0, 0);
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item4 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+item1 {
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container2 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item2 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container3 {
+  display: flex;
+  justify-content:right;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item3 {
+  background: rgb(0, 255, 0);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container4 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-start;
+  height: auto;
+  background: rgb(0, 0, 0);
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item4 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container5 {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: auto;
+  background: rgb(0, 0, 0);
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.item5 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container6 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item6 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container7 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item7 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container8 {
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item8 {
+  background: rgb(0, 0, 255);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container9 {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item9 {
+  background: rgb(255, 255, 0);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container10 {
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item10 {
+  background: rgb(255, 255, 0);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
+
+.container11 {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.item11 {
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 150px;
+  font-size: 40px;
+}
+
+.container12 {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  height: auto;
+  background: rgb(0, 0, 0);
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.item12 {
+  background: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 140px;
+  font-size: 40px;
+}
